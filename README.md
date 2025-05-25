@@ -28,6 +28,7 @@ The dataset used for training and evaluation includes medical parameters that ar
    ```bash
    git clone https://github.com/your-username/pcos-detection.git
    cd pcos-detection
+   
 2.Create and Activate Virtual Environment (optional)
    bash
    python -m venv venv
@@ -35,12 +36,14 @@ The dataset used for training and evaluation includes medical parameters that ar
    venv\\Scripts\\activate
    # macOS/Linux
    source venv/bin/activate
+   
 3.Install Required Packages
    bash
    pip install -r requirements.txt   
    If requirements.txt is missing, install manually:
    bash
    pip install flask pandas scikit-learn openpyxl
+   
 4.Run The Application
    python app.py
    
